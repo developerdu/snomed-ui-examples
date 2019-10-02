@@ -10,10 +10,11 @@ This repository can be run locally, or deployed as a GitHub Pages Website.  The 
 (Substitue 'IHTSDO' for the name of your organisation in GithHub)
 
 1.	‘clone’ the ‘master’ branch locally and change directory into `snomed-ui-examples/snomed-search-demo`
-3.  If not already installed, `npm install -g @angular/cli`
-2.	Run $ `npm install -g angular-cli-ghpages` to install a module that handles publishing of Angular applications to GitHub
-3.	Run $ `ng build --prod --base-href https://IHTSDO.github.io/snomed-ui-examples/` to build the application ready for deployment (note: the final slash is crucial in the URL following `–base-href`)
-4.	Run $ `ngh --no-silent -d dist/snomed-search-demo` to deploy the application to https://IHTSDO.github.io/snomed-ui-examples/
+2.  If not already installed, `npm install -g @angular/cli`
+3.	Run $ `npm install -g angular-cli-ghpages` to install a module that handles publishing of Angular applications to GitHub
+4.  Run $ `npm install` to install all dependencies of the project in order to build it
+5.	Run $ `ng build --prod --base-href https://IHTSDO.github.io/snomed-ui-examples/` to build the application ready for deployment (note: the final slash is crucial in the URL following `–base-href`)
+6.	Run $ `ngh --no-silent -d dist/snomed-search-demo` to deploy the application to https://IHTSDO.github.io/snomed-ui-examples/
 
 ## Locally
 
